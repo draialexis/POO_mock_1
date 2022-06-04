@@ -1,4 +1,4 @@
-package com.alexisdrai;
+package com.alexisdrai.ex1;
 
 public class Plop {
     private final String a = "a";
