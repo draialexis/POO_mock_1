@@ -56,26 +56,26 @@ public class Main {
 
         Coach c1 = new Coach(3, 15.0); //should fail from weight
 
-        System.out.println("############### C1 ###############\n" + c1);
+        System.out.println("\n############### C1 ###############\n\n" + c1);
         c1.addPassenger(p1);
-        System.out.println("############### C1 suite ###############\n" + c1);
+        System.out.println("\n############### C1 suite ###############\n\n" + c1);
         c1.addPassenger(p2);
-        System.out.println("############### C1 suite ###############\n" + c1);
+        System.out.println("\n############### C1 suite ###############\n\n" + c1);
 
         Coach c2 = new Coach(1, 20.0); // should fail from passengers
 
-        System.out.println("############### C2 ###############\n" + c2);
+        System.out.println("\n############### C2 ###############\n\n" + c2);
         c2.addPassenger(p1);
-        System.out.println("############### C2 suite ###############\n" + c2);
+        System.out.println("\n############### C2 suite ###############\n\n" + c2);
         c2.addPassenger(p2);
-        System.out.println("############### C2 suite ###############\n" + c2);
+        System.out.println("\n############### C2 suite ###############\n\n" + c2);
 
         Coach c3 = new Coach(3, 20.0); // should succeed
 
-        System.out.println("############### C3 ###############\n" + c3);
+        System.out.println("\n############### C3 ###############\n\n" + c3);
         c3.addPassenger(p1);
-        System.out.println("############### C3 suite ###############\n" + c3);
+        System.out.println("\n############### C3 suite ###############\n\n" + c3);
         c3.addPassenger(p2);
-        System.out.println("############### C3 suite ###############\n" + c3);
+        System.out.println("\n############### C3 suite ###############\n\n" + c3);
     }
 }
