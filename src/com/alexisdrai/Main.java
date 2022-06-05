@@ -34,7 +34,7 @@ public class Main {
 	    q2
 	       on peut utiliser des setters dans lesquels on gérera la validation des ajouts,
 	       chaque objet de type Coach sera responsable de surveiller son propre état
-	       et d'effectuer ou non les ajouits en fonction de ses contraintes
+	       et d'effectuer ou non les ajouts en fonction de ses contraintes
 	    q3
 	       Cf ex3/Coach.java etc.
 	       and below
